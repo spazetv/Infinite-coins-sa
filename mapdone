@@ -1,0 +1,6 @@
+local args = {
+    [1] = "mapdone",
+    [2] = "Cathedral"
+}
+
+workspace.REs.c23:FireServer(unpack(args))
