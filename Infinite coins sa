@@ -1,0 +1,1053 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Infinite Coins Generator", "Midnight")
+local Tab = Window:NewTab("Inf coins")
+local Section = Tab:NewSection("Inf Coins")
+Section:NewButton("+1,000 coins", "Gets you +1,000 coins", function()
+    for i=1,1 do
+local args = {
+    [1] = "winner"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("easter"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("+10,000 coins", "Gets you +10,000 coins", function()
+    for i=1,10 do
+local args = {
+    [1] = "winner"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("easter"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("+100,000 coins", "Gets you +100,000 coins", function()
+    for i=1,100 do
+local args = {
+    [1] = "winner"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("easter"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("+1,000,000 coins", "Gets you +1,000,000 coins", function()
+    for i=1,1000 do
+local args = {
+    [1] = "winner"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("easter"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("+10,000,000 coins", "Gets you +10,000,000 coins", function()
+    for i=1,10000 do
+local args = {
+    [1] = "winner"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("easter"):FireServer(unpack(args))
+end
+end)
+local Tab = Window:NewTab("Cases (open)")
+local Section = Tab:NewSection("Open Cases")
+Section:NewButton("Open Refined", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Easter", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Unordinary", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Exquisite", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Animal", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Camouflage", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Future", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Material", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Nature", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Pattern", "Opens a case", function()
+    for i=1,1 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Refined x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Easter x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Unordinary x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Exquisite x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Animal x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Camouflage x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Future x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Material x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Nature x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Pattern x10", "Opens a case", function()
+    for i=1,10 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Refined x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Easter x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Unordinary x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Exquisite x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Animal x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Camouflage x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Future x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Material x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Nature x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Pattern x100", "Opens a case", function()
+    for i=1,100 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Refined x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Easter x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Unordinary x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Exquisite x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Animal x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Camouflage x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Future x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Material x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Nature x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Pattern x1000", "Opens a case", function()
+    for i=1,1000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Refined x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Easter x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Unordinary x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Exquisite x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Animal x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Camouflage x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Future x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Material x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Nature x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Open Pattern x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+local Tab = Window:NewTab("Cases (Buy)")
+local Section = Tab:NewSection("Buy cases")
+Section:NewButton("Buy Refined", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Easter", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Unordinary", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Exquisite", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Animal", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Camouflage", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Future", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Material", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Nature", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Pattern", "Buys a case", function()
+    for i=1,1 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Refined x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Easter x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Unordinary x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Exquisite x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Animal x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Camouflage x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Future x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Material x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Nature x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Pattern x10", "Buys a case", function()
+    for i=1,10 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Refined x10", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Easter x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Unordinary x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Exquisite x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Animal x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Camouflage x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Future x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Material x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Nature x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Pattern x100", "Buys a case", function()
+    for i=1,100 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Refined x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Easter x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Unordinary x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Exquisite x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Animal x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Camouflage x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Future x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Material x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Nature x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Pattern x1000", "Buys a case", function()
+    for i=1,1000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Refined x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Refined"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Easter x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Easter"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Unordinary x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Unordinary"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Exquisite x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Exquisite"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Animal x1000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Animal"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Camouflage x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Camouflage"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Future x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Future"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Material x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Material"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Nature x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Nature"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
+Section:NewButton("Buy Pattern x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Pattern"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
