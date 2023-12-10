@@ -1058,13 +1058,15 @@ Section:NewButton("Buy Pattern x10000", "Buys a case", function()
     [2] = "Pattern"
 }
 
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
 Section:NewButton("Buy Christmas x10000", "Buys a case", function()
     for i=1,10000 do 
 	local args = {
     [1] = "boughtcase",
     [2] = "Christmas"
 }
-
 
 workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
 end
