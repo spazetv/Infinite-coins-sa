@@ -549,6 +549,16 @@ Section:NewButton("Open Pattern x10000", "Opens a case", function()
 workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
 end
 end)
+Section:NewButton("Open Christmas x10000", "Opens a case", function()
+    for i=1,10000 do
+	local args = {
+    [1] = "opencase",
+    [2] = "Christmas"
+}
+
+workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
+end
+end)
 local Tab = Window:NewTab("Cases (Buy)")
 local Section = Tab:NewSection("Buy cases")
 Section:NewButton("Buy Refined", "Buys a case", function()
@@ -1047,6 +1057,14 @@ Section:NewButton("Buy Pattern x10000", "Buys a case", function()
     [1] = "boughtcase",
     [2] = "Pattern"
 }
+
+Section:NewButton("Buy Christmas x10000", "Buys a case", function()
+    for i=1,10000 do 
+	local args = {
+    [1] = "boughtcase",
+    [2] = "Christmas"
+}
+
 
 workspace:WaitForChild("REs"):WaitForChild("shopInteract"):FireServer(unpack(args))
 end
